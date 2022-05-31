@@ -1,0 +1,75 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+ 	  <title>Moriones</title>
+ 	  <link rel="stylesheet"href="style.css">
+      <link rel="icon" type="image/x-icon" href="assets/logo.png">
+ 	  <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+     <body>
+      <section  class="header">
+          <nav>
+          	  <a><img src="Images/logo.png"></a>
+          	  <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                   	  <li><a href="index.html">Main</a></li>
+                   	  <li><a href="knowledge.html">Knowledge</a></li>
+                      <li><a href="Images.html">Images</a></li>
+                   </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+
+  <div class="text-box">
+      <h1>MORIONES FESTIVAL</h1>
+      <p>Hamos na sa Marinduque at tuklasin ang ganda ng Moriones Festival</p>
+      <br>
+      <a href="knowledge.html" class="hero-btn">Visit Us To know More</a>
+</div>
+   </section>
+     
+<!----- text below home page ----->
+<section class="hometext">
+    <h1> Miriones Festival </h1><br>
+    <h1>in</h1><br>
+    <h1>Mogpog</h1>
+   
+    <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+      </section>
+    
+    <section class="row">
+        <div class="hometext-col">
+              <h3>Please follow us in:</h3>
+            <p>Facebook: Marinduque mandin</p>
+            
+            <p>Twitter: @morionesfestival</p>
+        
+            <p>Linked: morionesfestivalsamarinduque</p>
+            
+        </div>
+    
+    </section>
+        <!------ JavaScript for toggle Menu------>
+    <script>
+  
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+    </script>
+
+
+
+    </body>
+ </html>
